@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Apoorv Jain</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+      integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm"
+      crossorigin="anonymous"
+    />
+    <meta name="view-port" content="Width=device-width, initial-scale=1" />
+  </head>
+  <body>
+    <section id="body-header">
+      <nav>
+        <table class="nav-bar">
+          <tr>
+            <td class="nav-link"><a href="">Home</a></td>
+            <td class="nav-link"><a href="">About</a></td>
+            <td class="nav-link"><a href="">Skills</a></td>
+            <td class="nav-link"><a href="">Projects</a></td>
+            <td class="nav-link"><a href="">Contact</a></td>
+          </tr>
+        </table>
+      </nav>
+    </section>
+    <main>
+      <section id="about">
+        <img class="profile-pic" src="https://i.ibb.co/Mc5j0Tx/def.jpg" />
+        <div class="my-name">Apoorv Jain</div>
+        <br />
+        <div class="about-content">
+          <div class="heading">
+            <i class="fas fa-user-circle about-icon"></i>About
+          </div>
+          <p>
+            I am currently persuing B.tech in Electronics communication from
+            <b class="highlight">IIT BHU Varanasi</b> 😎.I am interested in
+            <b class="highlight">data structures and algorithms</b>.I am a
+            <b class="highlight">competitive programmer</b> by heart❤.I also
+            have knowledge in
+            <b class="highlight">machine learning and computer vision</b>
+            🤖🤖.Currently i am exploring the field of web development🌈.I am
+            also an upcoming intern at
+            <b class="highlight"
+              >Microsoft<img
+                class="logo"
+                src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/44/Microsoft_logo.svg/1024px-Microsoft_logo.svg.png"
+              />🤩🤩</b
+            >
+          </p>
+          <a href="https://www.linkedin.com/in/apoorv-jain-87ba16190/"
+            ><i class="fab fa-linkedin contact-links"></i
+          ></a>
+          <a href="https://www.facebook.com/apoorv.jain.9659/"
+            ><i class="fab fa-facebook-square contact-links"></i
+          ></a>
+          <a href="https://www.instagram.com/apoorv_142001/"
+            ><i class="fab fa-instagram-square contact-links"></i
+          ></a>
+          <a href="https://github.com/apoorv-14200"
+            ><i class="fab fa-github contact-links"></i
+          ></a>
+        </div>
+      </section>
+      <hr />
+      <section id="skills">
+        <div class="heading">
+          <i class="fas fa-tools about-icon"></i>
+          Skills
+        </div>
+        <div class="progress-bar">
+          <div class="progress-excellent">C/C++</div>
+        </div>
+        <div class="progress-bar">
+          <div class="progress-excellent">DSA</div>
+        </div>
+        <div class="progress-bar">
+          <div class="progress-verygood">Competitve Programming</div>
+        </div>
+        <div class="progress-bar">
+          <div class="progress-verygood">Machine Learning</div>
+        </div>
+        <div class="progress-bar">
+          <div class="progress-good">Python</div>
+        </div>
+        <div class="progress-bar">
+          <div class="progress-poor">Web Devlopment</div>
+        </div>
+      </section>
+      <hr />
+      <section id="projects">
+        <div class="heading">
+          <i class="fas fa-book-open about-icon"></i>
+          Projects
+        </div>
+        <div class="exp left">
+          <h3 class="pheading-left">Autonomous Path Planning Bot</h3>
+          <p class="project-content">
+            It is computer vision based project which shows the application of
+            data structutres and algorithms in real life. In this project we are
+            taking image of grid which reresents city in which the colors of
+            different cells represent the amount of traffic on that road.Now the
+            problem is just to pick a patient from its location and drop him to
+            respective hospital by taking shortest path.Some roads allow one way
+            movement only.So first i used open-cv to take out all the
+            information given in the image using image processing to create a
+            directed graph and then applied dijktras on the graph.
+          </p>
+          <p class="link-box">
+            Github Link-
+            <a
+              class="git-link"
+              href="https://github.com/apoorv-14200/Pixelate2021-PathplanningBot"
+              >Project</a
+            >
+          </p>
+        </div>
+        <div class="exp-img left">
+          <img
+            class="project-img"
+            src="https://github.com/apoorv-14200/Pixelate2021-PathplanningBot/blob/main/media/sample.jpg?raw=true"
+          />
+        </div>
+        <div class="exp-img right">
+          <img
+            class="project-img"
+            src="https://github.com/apoorv-14200/HindiOCR/raw/main/whole%20process/myprocess.jpg"
+          />
+        </div>
+        <div class="exp right">
+          <h3 class="pheading-right">Hindi-OCR</h3>
+          <p class="project-content">
+            Used image processing techniques to segment different characters in
+            hindi word and recognized each character by training a custom ML
+            model on Devnagri characters dataset with 21 classes giving 96%
+            accuracy on training data and 95% on test data . Added features to
+            handle rotated word,applied image processing for removing noise
+            present in images.
+          </p>
+          <p class="link-box">
+            Github Link-
+            <a class="git-link" href="https://github.com/apoorv-14200/HindiOCR"
+              >Project</a
+            >
+          </p>
+        </div>
+        <div class="exp left">
+          <h3 class="pheading-left">Assissitive Vision For Blind</h3>
+          <p class="project-content">
+            Used different ML concepts like NLP , CNN , LSTMS , WORD EMBEDDINGS
+            to generate meaningful sentence to describe an image and converted
+            to speech. Made a custom ML model using keras fuctional api and
+            trained it on Flickr8k dataset. Made a web app using flask(locally
+            hosted).
+          </p>
+          <p class="link-box">
+            Github Link-
+            <a
+              class="git-link"
+              href="https://github.com/apoorv-14200/Assistive-Vision-For-Blind"
+              >Project</a
+            >
+          </p>
+        </div>
+        <div class="exp-img left">
+          <img
+            class="project-img"
+            src="https://miro.medium.com/max/640/1*vzFwXFJOrg6WRGNsYYT6qg.png"
+          />
+        </div>
+      </section>
+      <hr />
+      <section id="coding-handles">
+        <div class="heading">
+          <img
+            src="https://png.pngtree.com/png-clipart/20190614/original/pngtree-coding-on-screen-glyph-black-icon-png-image_3755344.jpg"
+            class="about-icon-2"
+          />
+          Coding Handles
+        </div>
+        <div class="handle">
+          <a href="https://codeforces.com/profile/Greedy_Optimizzer/"
+            ><img
+              class="handle-img"
+              src="https://news.itmo.ru/images/news/big/917925.jpg"
+          /></a>
+        </div>
+        <div class="handle">
+          <a href="https://www.codechef.com/users/jainapoorv094/">
+            <img
+              class="handle-img codechef"
+              src="https://upload.wikimedia.org/wikipedia/en/thumb/7/7b/Codechef%28new%29_logo.svg/1200px-Codechef%28new%29_logo.svg.png"
+            />
+          </a>
+        </div>
+        <div class="handle">
+          <a href="https://www.hackerrank.com/certificates/51239c055863">
+            <img
+              class="handle-img codechef"
+              src="https://s3.amazonaws.com/sr-marketplace-prod/wp-content/uploads/2015/08/hackerrank.jpg"
+            />
+          </a>
+        </div>
+      </section>
+      <hr />
+      <section id="contact">
+        <div class="heading contact-me">
+          <i class="fas fa-handshake location"></i>Contact me!!
+        </div>
+        <div class="contact-box">
+          <form>
+            <input
+              class="contact-input"
+              type="text"
+              name="name"
+              placeholder="Your Name"
+            />
+            <input
+              class="contact-input"
+              type="email"
+              name="email"
+              placeholder="Your Email"
+            />
+            <textarea
+              class="contact-input"
+              name="text-msg"
+              rows="3"
+              placeholder="Type your message here"
+            ></textarea>
+            <button type="submit" class="my-btn">Submit Message</button>
+          </form>
+        </div>
+        <div class="address">
+          <div class="sub-heading">Get in touch!!</div>
+          <div class="address-content">
+            Hi,I hope you get overall idea about my skills by looking at this
+            web-site.If you want to talk about any of my skills i will be more
+            than happy to share my thoughts with you🥰.
+          </div>
+          <div class="sub-heading">Address</div>
+          <div class="address-content">
+            I belong to the city of Taj.<a href=""
+              ><i class="fas fa-map-marker-alt location"></i
+            ></a>
+          </div>
+        </div>
+      </section>
+    </main>
+    <div class="cube">
+      <div class="face one"></div>
+      <div class="face two"></div>
+      <div class="face three"></div>
+      <div class="face four"></div>
+      <div class="face five"></div>
+      <div class="face six"></div>
+    </div>
+    <script type="text/javascript" src="./cubes_files/script.js"></script>
+    <script type="text/javascript" src="script.js"></script>
+  </body>
+</html>

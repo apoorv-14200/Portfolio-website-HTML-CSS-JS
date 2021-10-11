@@ -1,0 +1,434 @@
+nav {
+  position: sticky;
+}
+nav li {
+  display: inline-block;
+  margin: auto;
+}
+.nav-bar {
+  margin-top: 20px;
+}
+
+.my-name {
+  position: relative;
+  text-align: center;
+  color: unset;
+  font-size: xxx-large;
+  font-family: cursive;
+}
+
+#body-header {
+  background-image: url("https://i.imgur.com/JIyLHAa.jpeg");
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  height: 75vh;
+  background-attachment: fixed;
+}
+.nav-link {
+  width: 20vw;
+  text-align: center;
+}
+.nav-link a {
+  text-decoration: none;
+  font-size: xx-large;
+  font-family: sans-serif;
+  color: white;
+}
+.highlight {
+  color: white;
+}
+.profile-pic {
+  height: 200px;
+  width: 200px;
+  position: relative;
+  left: 42vw;
+  border-radius: 50%;
+  border-width: 5px;
+  border-color: white;
+  border-style: solid;
+  margin-top: -100px;
+  box-shadow: 0px 0px 20px 10px black;
+}
+.about-content {
+  font-size: x-large;
+  font-family: system-ui;
+  width: auto;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #13abc3;
+  height: 45vh;
+  color: black;
+  font-weight: bold;
+}
+
+section:nth-child(2n + 1) {
+  background-color: #13abc3;
+}
+
+section:nth-child(2n) {
+  background-color: lightgrey;
+}
+
+section {
+  display: flex;
+  width: 100%;
+  height: 85vh;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}
+
+#skills {
+  display: flex;
+  width: 100%;
+  height: 60vh;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.heading {
+  display: block;
+  width: 100%;
+  height: 10vh;
+  color: black;
+  font-size: -webkit-xxx-large;
+  text-align: center;
+  margin-top: 20px;
+  font-weight: bold;
+  font-family: system-ui;
+}
+
+.progress-bar {
+  width: 250px;
+  height: 50px;
+  background-color: gray;
+  margin-left: 20px;
+  margin-right: 20px;
+  border-radius: 4em;
+  border-color: black;
+  border-width: 3px;
+  box-shadow: 0px 0px 5px 5px black;
+}
+.progress-poor {
+  height: inherit;
+  width: 30%;
+  background-color: orange;
+  border-top-left-radius: 4em;
+  border-bottom-left-radius: 4em;
+  text-align: center;
+  color: white;
+  font-size: larger;
+  font-family: -webkit-pictograph;
+  font-weight: bold;
+  box-shadow: 0px 0px 5px 5px black;
+}
+.progress-good {
+  height: inherit;
+  width: 60%;
+  background-color: orange;
+  border-top-left-radius: 4em;
+  border-bottom-left-radius: 4em;
+  text-align: center;
+  color: white;
+  font-size: larger;
+  font-family: -webkit-pictograph;
+  font-weight: bold;
+  box-shadow: 0px 0px 5px 5px black;
+}
+
+.progress-verygood {
+  height: inherit;
+  width: 80%;
+  background-color: orange;
+  border-top-left-radius: 4em;
+  border-bottom-left-radius: 4em;
+  text-align: center;
+  color: white;
+  font-size: larger;
+  font-family: -webkit-pictograph;
+  font-weight: bold;
+  box-shadow: 0px 0px 5px 5px black;
+}
+
+.progress-excellent {
+  height: inherit;
+  width: 90%;
+  background-color: orange;
+  border-top-left-radius: 4em;
+  border-bottom-left-radius: 4em;
+  text-align: center;
+  color: white;
+  font-size: larger;
+  font-family: -webkit-pictograph;
+  font-weight: bold;
+  box-shadow: 0px 0px 5px 5px black;
+}
+
+#projects {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  height: 1300px;
+  justify-content: center;
+}
+
+.left {
+  margin-left: 0px;
+}
+.right {
+  margin-right: 0px;
+}
+.exp-img {
+  width: 15%;
+  height: 250px;
+  background-color: #e8f5e9;
+  border-radius: 1em;
+  border-width: 5px;
+  border-color: black;
+}
+
+.exp {
+  width: 80%;
+  height: 250px;
+  border-width: 5px;
+  border-color: white;
+  border-radius: 1em;
+  background: linear-gradient(to right, #2857a4, #403066);
+  border: solid;
+}
+
+.pheading-left {
+  margin: 20px;
+  color: white;
+  font-size: x-large;
+  font-family: -webkit-pictograph;
+  text-decoration: underline;
+}
+
+.pheading-right {
+  margin: 20px;
+  color: white;
+  font-size: x-large;
+  font-family: -webkit-pictograph;
+  text-decoration: underline;
+  text-align: right;
+}
+
+.project-content {
+  color: white;
+  font-size: larger;
+  font-family: -webkit-pictograph;
+}
+
+.git-link {
+  font-size: larger;
+  font-family: -webkit-pictograph;
+  width: 20%;
+  border-radius: 4em;
+  text-decoration: none;
+}
+.git-link:hover {
+  color: white;
+  background-color: gray;
+  box-shadow: 0px 0px 6px 4px black;
+}
+
+.link-box {
+  color: white;
+  font-size: larger;
+  font-family: -webkit-pictograph;
+}
+
+.project-img {
+  width: 90%;
+  height: 90%;
+  position: relative;
+  left: 4%;
+  top: 4%;
+}
+
+.handle {
+  width: 200px;
+  height: 200px;
+  border-radius: 2em;
+}
+
+.handle:hover {
+  box-shadow: 0px 0px 12px 12px black;
+}
+.handle-img {
+  width: 100%;
+  height: 100%;
+  border-radius: 2em;
+  border-width: 10px;
+  border: solid;
+  border-color: black;
+}
+.codechef {
+  background-color: white;
+}
+
+#coding-handles {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  height: 65vh;
+}
+
+.logo {
+  width: 20px;
+  height: 20px;
+  margin: 5px;
+}
+
+#contact {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  background: linear-gradient(to right, #2857a4, #403066);
+  height: 70vh;
+}
+
+.contact-me {
+  color: white;
+}
+.contact-box {
+  width: 50%;
+  height: 75%;
+}
+.contact-input {
+  display: block;
+  width: 85%;
+  margin: 30px;
+  text-align: center;
+  height: 50px;
+  color: white;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  background-color: #252530;
+  border-bottom: white solid 3px;
+  font-size: large;
+  font-family: cursive;
+}
+.address {
+  width: 50%;
+  height: 75%;
+}
+
+::placeholder {
+  color: white;
+  font-size: large;
+  font-family: cursive;
+  opacity: 1;
+}
+.sub-heading {
+  display: block;
+  color: white;
+  font-size: xx-large;
+  margin: 30px;
+  font-weight: bold;
+  font-family: system-ui;
+}
+
+.location {
+  color: white;
+  font-size: 4rem;
+  margin: 4px;
+}
+.address-content {
+  color: white;
+  font-size: large;
+  font-family: cursive;
+  margin: 30px;
+}
+
+.my-btn {
+  width: 50%;
+  text-align: center;
+  margin-top: 30px;
+  margin-left: 20%;
+  font-size: x-large;
+}
+
+.contact-links {
+  vertical-align: bottom;
+  color: white;
+  font-size: 5rem;
+  margin: 30px;
+}
+.contact-links:hover {
+  vertical-align: bottom;
+  color: black;
+  font-size: 5rem;
+  margin: 30px;
+  box-shadow: 0px 0px 5px 5px black;
+}
+
+.about-icon {
+  font-size: 4rem;
+  margin: 4px;
+  color: black;
+}
+
+.about-icon-2 {
+  width: 70px;
+  height: 70px;
+  margin: 4px;
+  color: black;
+}
+
+.cube {
+  width: 130px;
+  height: 130px;
+  top: 200px;
+  left: 100px;
+  position: fixed;
+  transform-style: preserve-3d;
+  perspective: 5000px;
+  transform: rotateX(-25deg) rotateY(25deg);
+  animation: cube-rotate 5s ease-in-out infinite alternate;
+}
+
+.face {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+}
+
+.one {
+  background-image: url("https://lh3.googleusercontent.com/-EC91W20-7zk/YBe2IjOBYJI/AAAAAAAAAjc/LKHla2McHUA9Gg4EBtdaEJCKErvQxUWpwCLcBGAsYHQ/s1600/1612166686340174-0.png");
+  background-size: cover;
+}
+.two {
+  background-image: url("https://lh3.googleusercontent.com/-EC91W20-7zk/YBe2IjOBYJI/AAAAAAAAAjc/LKHla2McHUA9Gg4EBtdaEJCKErvQxUWpwCLcBGAsYHQ/s1600/1612166686340174-0.png");
+  background-size: cover;
+  transform: rotateY(90deg) translateX(-65px) translateZ(-65px);
+}
+.three {
+  background-image: url("https://qph.fs.quoracdn.net/main-qimg-cabc6a8deb6008b732055a8a1f41f934");
+  background-size: cover;
+  transform: rotateY(90deg) translateX(-65px) translateZ(65px);
+}
+
+.four {
+  background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Lanka_gate_BHU.JPG/1200px-Lanka_gate_BHU.JPG");
+  background-size: cover;
+  transform: translateX(0px) translateZ(130px);
+}
+
+.five {
+  background-image: url("https://www.knowafest.com/files/uploads/Kashiyatra%20logo-2018122505.jpg");
+  background-size: cover;
+  transform: rotateX(90deg) translateY(65px) translateZ(-65px);
+}
+
+.six {
+  background-image: url("https://media-exp1.licdn.com/dms/image/C4E0BAQFWyeIkMecCww/company-logo_200_200/0/1603989289424?e=2159024400&v=beta&t=F5uEegQi3e45fP6yRM6-wVymgzDwwzMds58SmXVjtd4");
+  background-size: cover;
+  transform: rotateX(90deg) translateY(65px) translateZ(65px);
+}
